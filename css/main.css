@@ -211,3 +211,9 @@ body {
     width: 100%;   
 }
 
+.clear {
+  clear:both;
+  height: 0px;
+  width: 0px;
+  display: table;
+}
