@@ -1,0 +1,260 @@
+
+.item {
+  height: 100%;
+  width: 100%;
+}
+
+.item img {
+   width: 100%;
+   height: 560px;
+   opacity: 0.9;
+}
+
+.carousel {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0 0 0 0;
+}
+
+.cover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  color: #fff;
+  text-align: center;
+  margin: 12% auto;
+  width: 100%;
+}
+
+.cover h1 {
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 1;
+  word-spacing: 2px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
+}
+
+.cover h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  word-spacing: 2px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
+}
+
+.media-middle img {
+  height: 64px;
+  width: 64px;
+}
+
+.thumbnail img {
+  width: 242px;
+  height: 200px;
+}
+
+.big-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #222;
+    border-color: #080808;
+    line-height: 24px;
+    font-size: 15px;
+    padding:30px 0px;
+    color: #ccc;
+    width: 100%;   
+}
+
+.clearfixall:after {
+    content: '';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both
+}
+
+.footer-inverse {
+  background-color: #eff4fa;
+  border-color: #e7e7e7;
+  color: #333333;
+  position: absolute;
+  bottom: 0px;
+  padding: 20px 0px;
+}
+
+
+.navbar-default {
+  background-color: #eff4fa;
+}
+
+.navbar-default .navbar-nav > .active1 > a,
+.navbar-default .navbar-nav > .active1 > a:hover,
+.navbar-default .navbar-nav > .active1 > a:focus {
+  color: #555;
+  background-color: #ceeaf6;
+}
+
+.student {
+  float: left;
+  text-align: center;
+  height: 100%;
+}
+
+.teacher {
+  float: right;
+  text-align: center;
+  height: 100%;
+}
+
+
+.panel-title {
+  height: 50px;
+  font-size: 18px;
+  font-family: Tahoma,Verdana,Arial,宋体;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  line-height: 18px;
+}
+
+.panel-title span {
+  font-size: 18px;
+  font-family: Tahoma,Verdana,Arial,宋体;
+  width: 50%;
+  padding-top: 14px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.panel-title span:hover {
+  color:#25adad;
+  font-weight: 600;
+}
+
+.active-span {
+  border-bottom: 3px #1d54a0 solid;
+  color:#1d54a0;
+  font-weight: bold;
+}
+
+.usename,.Password,.submit {
+  width: 100%;
+  margin: 0 auto;
+  background: none;
+  border: 1px solid #96a5b4;
+  border-radius: 0px;
+  height: 38px;
+  width: 292px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.usename {
+  margin-top: 20px;
+}
+
+.usename input,.Password input, .submit input {
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 100%;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.submit a input {
+  background-color: #5a98de;
+  outline: none;
+  border-radius: 3px;
+  height: 40px;
+  line-height: 39px;
+  width: 292px;
+  outline: none;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+}
+
+.submit a input:hover {
+  background-color: #1d54a0;
+}
+
+.submit {
+  margin-bottom: 40px;
+}
+
+.panel-add {
+  margin-top: 180px;
+}
+
+.pic {
+  margin-top: 180px;
+  padding-right: 0px;
+}
+
+.font-add {
+  margin-top: 120px;
+  font-family: Tahoma,Verdana,Arial,宋体;
+  padding-left: 120px;
+}
+
+.font-add p {
+  font-family: Tahoma,Verdana,Arial,宋体;
+  margin:0px;
+  padding:0px;
+  font-size: 15px;
+  color: #333333;
+  line-height: 1;
+}
+
+.font-add h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #5a98de;
+}
+
+.height {
+  height: 660px;
+}
+
+
+@media screen and (min-width: 960px) and (max-width: 1024px) {
+
+.height {
+  height: 320px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+.height {
+  height: 400px;
+}
+}
+
+@media screen and (min-width: 1350px) and (max-width: 1700px) {
+
+.height {
+  height: 560px;
+}
+}
+
+@media screen and (max-width: 960px) {
+
+.height {
+  height: 260px;
+}
+}
